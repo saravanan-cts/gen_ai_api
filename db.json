@@ -1,0 +1,82 @@
+{
+    "status": "success",
+    "status_code": 201,
+    "message": "Request processed successfully",
+    "data":
+    {
+    "restaurants": [
+      {
+        "id": 1,
+        "name": "Mia Lucci",
+        "address": "123 Main St, New York, NY",
+        "availability": {
+          "date": "2023-10-15",
+          "party_size": 2,
+          "timeslots": [
+            "19:00",
+            "19:30",
+            "20:00"
+          ]
+        },
+        "cuisine": "Italian",
+        "price": "$$$",
+        "rating": 4.5,
+        "reservationUrl": "https://www.opentable.com/sample-restaurant-1"
+      },
+      {
+        "id": 5,
+        "name": "Italy Now",
+        "address": "692 East St, New York, NY",
+        "availability": {
+          "date": "2023-10-15",
+          "party_size": 2,
+          "timeslots": [
+            "19:00",
+            "19:30",
+            "20:00"
+          ]
+        },
+        "cuisine": "Italian",
+        "price": "$$",
+        "rating": 4.7,
+        "reservationUrl": "https://www.opentable.com/sample-restaurant-5"
+      },
+      {
+        "id": 7,
+        "name": "Pasta Paradise",
+        "address": "456 Pine St, New York, NY",
+        "availability": {
+          "date": "2023-10-15",
+          "party_size": 2,
+          "timeslots": [
+            "19:00",
+            "19:30",
+            "20:00"
+          ]
+        },
+        "cuisine": "Italian",
+        "price": "$$",
+        "rating": 4.6,
+        "reservationUrl": "https://www.opentable.com/sample-restaurant-7"
+      },
+      {
+        "id": 113,
+        "name": "Pizza Haven",
+        "address": "789 Pine St, New York, NY",
+        "availability": {
+          "date": "2023-10-15",
+          "party_size": 2,
+          "timeslots": [
+            "18:00",
+            "19:00",
+            "20:00"
+          ]
+        },
+        "cuisine": "Italian",
+        "price": "$$",
+        "rating": 4.4,
+        "reservationUrl": "https://www.opentable.com/sample-restaurant-113"
+      }
+    ]
+    }
+}
